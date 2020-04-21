@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://longqingling.github.io</id>
     <title>Gridea</title>
-    <updated>2020-03-25T02:29:19.934Z</updated>
+    <updated>2020-04-21T07:53:21.884Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://longqingling.github.io"/>
     <link rel="self" href="https://longqingling.github.io/atom.xml"/>
@@ -10,6 +10,13 @@
     <logo>https://longqingling.github.io/images/avatar.png</logo>
     <icon>https://longqingling.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[解决GitHub图片无法显示问题]]></title>
+        <id>https://longqingling.github.io/post/jie-jue-github-tu-pian-wu-fa-xian-shi-wen-ti/</id>
+        <link href="https://longqingling.github.io/post/jie-jue-github-tu-pian-wu-fa-xian-shi-wen-ti/">
+        </link>
+        <updated>2020-04-21T07:45:15.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://longqingling.github.io/post/hello-gridea/</id>
