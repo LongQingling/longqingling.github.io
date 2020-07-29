@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://longqingling.github.io</id>
-    <title>大龙的小站</title>
-    <updated>2020-07-29T02:34:07.804Z</updated>
+    <title>lori</title>
+    <updated>2020-07-29T02:35:31.668Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://longqingling.github.io"/>
     <link rel="self" href="https://longqingling.github.io/atom.xml"/>
     <subtitle>温故而知新</subtitle>
     <logo>https://longqingling.github.io/images/avatar.png</logo>
     <icon>https://longqingling.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, 大龙的小站</rights>
+    <rights>All rights reserved 2020, lori</rights>
     <entry>
         <title type="html"><![CDATA[解决GitHub图片无法显示问题]]></title>
         <id>https://longqingling.github.io/post/jie-jue-github-tu-pian-wu-fa-xian-shi-wen-ti/</id>
