@@ -6,7 +6,7 @@
 <meta HTTP-EQUIV="pragma" CONTENT="no-cache"> 
 <meta HTTP-EQUIV="Cache-Control" CONTENT="no-cache, must-revalidate"> 
 <meta HTTP-EQUIV="expires" CONTENT="0"> 
-<title>解决GitHub图片无法显示问题 | lori</title>	
+<title>repo  init 失败 | lori</title>	
 
 <link rel="stylesheet" href="https://longqingling.github.io/styles/main.css">
 <script type="text/javascript">
@@ -142,10 +142,10 @@ window.onload=getCSS();
 	
 	                      
 		<div class="entry-content">
-			<h1 class="wow swing entry-title">解决GitHub图片无法显示问题</h1>
+			<h1 class="wow swing entry-title">repo  init 失败</h1>
 <div class="entry-meta">
 <div class="wow bounce">
-	<i class="iconfont icon-rili"> <time class="lately-a" datetime="2020-04-21 15:45:15" itemprop="datePublished" pubdate="">2020-04-21</time></i>
+	<i class="iconfont icon-rili"> <time class="lately-a" datetime="2020-08-13 15:06:24" itemprop="datePublished" pubdate="">2020-08-13</time></i>
 	          </div>
 			
 </span>
@@ -153,16 +153,12 @@ window.onload=getCSS();
 		</div>
                   
 			<div class="wow slideInLeft entry-summary song">
-				<h3 id="修改本机hosts">修改本机hosts：</h3>
-<p>151.101.184.133        assets-cdn.github.com<br>
-151.101.184.133       raw.githubusercontent.com<br>
-151.101.184.133      gist.githubusercontent.com<br>
-151.101.184.133      cloud.githubusercontent.com<br>
-151.101.184.133       camo.githubusercontent.com</p>
-<h3 id="macos">macOS</h3>
-<p>sudo  vi /etc/hosts</p>
-<h3 id="windows">windows</h3>
-<p>C:\Windows\System32\drivers\etc\hosts</p>
+				<pre><code>fatal: Cannot get https://gerrit.googlesource.com/git-repo/clone.bundle
+fatal: error [Errno 60] Operation timed out
+</code></pre>
+<p>手动指定一下repo地址为国内的镜像</p>
+<pre><code>repo init -u manifest -b v3 --repo-url=https://gerrit-googlesource.lug.ustc.edu.cn/git-repo 
+</code></pre>
 
 							</div>
 	<div class="wow bounceInDown vt-post-tags">
@@ -172,10 +168,8 @@ window.onload=getCSS();
 		
 		<div class="nav-links3">
       
-		<div class="wow bounceInLeft nav-previous3"><a href="https://longqingling.github.io/post/repo-shi-bai/" rel="prev"> repo 失败</a></div>
 		 
-		 
-		<div class="wow bounceInRight nav-next3"><a href="https://longqingling.github.io/post/about/" rel="next"> 关于</a></div>
+		<div class="wow bounceInRight nav-next3"><a href="https://longqingling.github.io/post/repo-shi-bai/" rel="next"> repo 失败</a></div>
 		
 		</div>
 	</nav>

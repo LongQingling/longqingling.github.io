@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://longqingling.github.io</id>
     <title>lori</title>
-    <updated>2020-07-29T02:35:31.668Z</updated>
+    <updated>2020-08-13T07:09:04.455Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://longqingling.github.io"/>
     <link rel="self" href="https://longqingling.github.io/atom.xml"/>
@@ -10,6 +10,34 @@
     <logo>https://longqingling.github.io/images/avatar.png</logo>
     <icon>https://longqingling.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, lori</rights>
+    <entry>
+        <title type="html"><![CDATA[repo  init 失败]]></title>
+        <id>https://longqingling.github.io/post/repo-init-shi-bai/</id>
+        <link href="https://longqingling.github.io/post/repo-init-shi-bai/">
+        </link>
+        <updated>2020-08-13T07:06:24.000Z</updated>
+        <content type="html"><![CDATA[<pre><code>fatal: Cannot get https://gerrit.googlesource.com/git-repo/clone.bundle
+fatal: error [Errno 60] Operation timed out
+</code></pre>
+<p>手动指定一下repo地址为国内的镜像</p>
+<pre><code>repo init -u manifest -b v3 --repo-url=https://gerrit-googlesource.lug.ustc.edu.cn/git-repo 
+</code></pre>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[repo 失败]]></title>
+        <id>https://longqingling.github.io/post/repo-shi-bai/</id>
+        <link href="https://longqingling.github.io/post/repo-shi-bai/">
+        </link>
+        <updated>2020-08-13T07:06:24.000Z</updated>
+        <content type="html"><![CDATA[<pre><code>fatal: Cannot get https://gerrit.googlesource.com/git-repo/clone.bundle
+fatal: error [Errno 60] Operation timed out
+</code></pre>
+<p>手动指定一下repo地址为国内的镜像</p>
+<pre><code>repo init -u manifest -b v3 --repo-url=https://gerrit-googlesource.lug.ustc.edu.cn/git-repo 
+</code></pre>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[解决GitHub图片无法显示问题]]></title>
         <id>https://longqingling.github.io/post/jie-jue-github-tu-pian-wu-fa-xian-shi-wen-ti/</id>
